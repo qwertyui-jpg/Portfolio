@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero" role="banner" aria-label="Introduction">
+        <div class="animated-bg" aria-hidden="true">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+        </div>
+        <h1>Hello, I'm Sahil Hode</h1>
+        <p>I'm a Python Developer | Web Developer | Backend Developer.</p>
+        <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });"
+            aria-label="Contact Me">Hire Me</button>
+    </div>
+
+    <section id="about" tabindex="-1" aria-labelledby="about-title">
+        <h2 id="about-title">About Me</h2>
+        <p>
+            Motivated and detail-oriented Computer Applications student with hands-on experience in web development,
+            Python, and Django, seeking opportunities to apply and grow in a dynamic tech environment.
+            <br />
+            <strong>Education:</strong> Bachelor of Computer Applications (BCA) <br>
+            <strong>Address:</strong> Marleshwar APT, diva sabe gaon, sabe road, diva(E) <br>
+            <strong>Email-id: </strong> sahilhode67@gmail.com <br>
+            <strong>Phone: </strong> +91 8652601566 <br>
+            <strong>Linked-In: </strong> www.linkedin.com/in/sahil-hode-884355253 <br>
+            <strong>Github: </strong> https://github.com/qwertyui-jpg
+
+        </p>
+
+    </section>
+
+    <section id="skills" tabindex="-1" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skills</h2>
+        <div class="skills-list" role="list" aria-label="Skills proficiency levels">
+            <div class="skill" role="listitem" aria-label="C skill level 90 percent">
+                <div class="skill-name">C Programming</div>
+                <div class="skill-bar node" style="--skill-level: 90%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="C++ skill level 90 percent">
+                <div class="skill-name">C++ Programming</div>
+                <div class="skill-bar node" style="--skill-level: 90%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="HTML skill level 90 percent">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar html" style="--skill-level: 90%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="CSS skill level 85 percent">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar css" style="--skill-level: 85%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="JavaScript skill level 80 percent">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar js" style="--skill-level: 80%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="Python skill level 85 percent">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar react" style="--skill-level: 90%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="SQL & MySQL skill level 85 percent">
+                <div class="skill-name">SQL & MySQL</div>
+                <div class="skill-bar node" style="--skill-level: 85%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="Django skill level 75 percent">
+                <div class="skill-name">Django</div>
+                <div class="skill-bar node" style="--skill-level: 75%;"></div>
+            </div>
+            <div class="skill" role="listitem" aria-label="Node.js skill level 70 percent">
+                <div class="skill-name">Git & Github</div>
+                <div class="skill-bar node" style="--skill-level: 70%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" tabindex="-1" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid" role="list" aria-label="Portfolio projects">
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: Portfolio Website">
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">
+                        A responsive and animated personal portfolio website showcasing skills and projects built with
+                        HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about Portfolio Website project"></a>
+                </div>
+            </article>
+
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: Task Manager App">
+
+                <div class="project-content">
+                    <h3 class="project-title">AI Chatbot</h3>
+                    <p class="project-description">
+                        An AI-powered chatbot web app built with HTML, CSS, JavaScript, Django, and MySQL that provides
+                        intelligent, real-time responses through a dynamic and secure backend.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about Task Manager App project"></a>
+                </div>
+            </article>
+
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: E-Commerce UI Design">
+
+                <div class="project-content">
+                    <h3 class="project-title">AI based Personalised Medication Remainder</h3>
+                    <p class="project-description">
+                        An AI-based personalized medication reminder web app built with HTML, CSS, JavaScript, Django,
+                        and MySQL that helps users manage medicine schedules with smart alerts, voice assistance, and
+                        health insights.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about E-Commerce UI Design project"></a>
+                </div>
+            </article>
+
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: Task Manager App">
+
+                <div class="project-content">
+                    <h3 class="project-title">Student Report Card Management System</h3>
+                    <p class="project-description">
+                        A student report card management system built using Python that efficiently handles student
+                        records, calculates grades, and generates report cards with a simple and user-friendly
+                        interface.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about Task Manager App project"></a>
+                </div>
+            </article>
+
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: Task Manager App">
+
+                <div class="project-content">
+                    <h3 class="project-title">Quiz Game System</h3>
+                    <p class="project-description">
+                        A web-based quiz game built with HTML, CSS, and JavaScript that lets users answer
+                        multiple-choice questions, tracks scores in real-time, and offers an interactive and responsive
+                        user experience.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about Task Manager App project"></a>
+                </div>
+            </article>
+
+            <article class="project-card" role="listitem" tabindex="0" aria-label="Project: Task Manager App">
+
+                <div class="project-content">
+                    <h3 class="project-title">To-Do List </h3>
+                    <p class="project-description">
+                        A to-do list web app built with HTML, CSS, JavaScript, Python (Django), and MySQL that allows
+                        users to add, update, and delete tasks with real-time updates and persistent data storage.
+                    </p>
+                    <a href="#" class="project-link" aria-label="View more about Task Manager App project"></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" tabindex="-1" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact Me</h2>
+        <form aria-label="Contact form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required aria-required="true" placeholder="Your Full Name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required aria-required="true" placeholder="you@example.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required aria-required="true"
+                placeholder="Write your message here..."></textarea>
+
+            <button type="submit" aria-label="Send message">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Sahil Hode. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sahil-hode-884355253" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/qwertyui-jpg" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
